@@ -1,0 +1,17 @@
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\bin\Debug\Cognition.exe.config
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\bin\Debug\Cognition.exe
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\bin\Debug\Cognition.pdb
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition.csprojAssemblyReference.cache
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\MainWindow.g.cs
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Setting.g.cs
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\App.g.cs
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition_MarkupCompile.cache
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition_MarkupCompile.lref
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\MainWindow.baml
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Setting.baml
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition.g.resources
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition.Properties.Resources.resources
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition.csproj.GenerateResource.cache
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition.csproj.CoreCompileInputs.cache
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition.exe
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition.pdb
