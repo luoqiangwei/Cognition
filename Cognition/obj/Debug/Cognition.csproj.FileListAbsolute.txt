@@ -17,3 +17,5 @@ D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition.exe
 D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\Cognition.pdb
 D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\TimeGameSelect.g.cs
 D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\TimeGameSelect.baml
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\TGameA1.g.cs
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\TGameA1.baml

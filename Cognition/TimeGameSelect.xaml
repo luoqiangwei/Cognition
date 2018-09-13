@@ -29,7 +29,7 @@
 			<ColumnDefinition></ColumnDefinition>
 		</Grid.ColumnDefinitions>
 		<Button x:Name="back" Content="返回" Grid.Column="10" HorizontalAlignment="Stretch" Margin="5" Grid.Row="5" VerticalAlignment="Stretch" FontSize="20" Click="back_Click" />
-		<Button x:Name="gameA1" Content="看时间 1" Grid.Column="1" HorizontalAlignment="Stretch" Margin="5" Grid.Row="1" VerticalAlignment="Stretch" FontSize="24"/>
+		<Button x:Name="gameA1" Content="看时间 1" Grid.Column="1" HorizontalAlignment="Stretch" Margin="5" Grid.Row="1" VerticalAlignment="Stretch" FontSize="24" Click="gameA1_Click"/>
 		<Button x:Name="gameA2" Content="看时间 2" Grid.Column="2" HorizontalAlignment="Stretch" Margin="5" Grid.Row="1" VerticalAlignment="Stretch" FontSize="24"/>
 		<Button x:Name="gameA3" Content="看时间 3" Grid.Column="3" HorizontalAlignment="Stretch" Margin="5" Grid.Row="1" VerticalAlignment="Stretch" FontSize="24"/>
 		<Button x:Name="gameA4" Content="看时间 4" Grid.Column="4" HorizontalAlignment="Stretch" Margin="5" Grid.Row="1" VerticalAlignment="Stretch" FontSize="24"/>

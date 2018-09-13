@@ -46,7 +46,7 @@ namespace Cognition
                 this.WindowState = System.Windows.WindowState.Normal;
                 this.WindowStyle = System.Windows.WindowStyle.SingleBorderWindow;
                 this.ResizeMode = System.Windows.ResizeMode.CanResize;
-                this.Topmost = true;
+                //this.Topmost = true;
 
                 //设置窗口位置
                 this.Left = System.Windows.SystemParameters.PrimaryScreenWidth / 4;
@@ -79,6 +79,13 @@ namespace Cognition
         {
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
+            this.Close();
+        }
+
+        private void gameA1_Click(object sender, RoutedEventArgs e)
+        {
+            TGameA1 g1 = new TGameA1();
+            g1.Show();
             this.Close();
         }
     }
