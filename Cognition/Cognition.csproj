@@ -113,5 +113,55 @@
       <SubType>Designer</SubType>
     </Resource>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Time\0000.jpg" />
+    <Resource Include="Resource\Time\0020.jpg" />
+    <Resource Include="Resource\Time\0030.jpg" />
+    <Resource Include="Resource\Time\0040.jpg" />
+    <Resource Include="Resource\Time\0100.jpg" />
+    <Resource Include="Resource\Time\0120.jpg" />
+    <Resource Include="Resource\Time\0130.jpg" />
+    <Resource Include="Resource\Time\0140.jpg" />
+    <Resource Include="Resource\Time\0200.jpg" />
+    <Resource Include="Resource\Time\0220.jpg" />
+    <Resource Include="Resource\Time\0230.jpg" />
+    <Resource Include="Resource\Time\0240.jpg" />
+    <Resource Include="Resource\Time\0300.jpg" />
+    <Resource Include="Resource\Time\0320.jpg" />
+    <Resource Include="Resource\Time\0330.jpg" />
+    <Resource Include="Resource\Time\0340.jpg" />
+    <Resource Include="Resource\Time\0400.jpg" />
+    <Resource Include="Resource\Time\0420.jpg" />
+    <Resource Include="Resource\Time\0430.jpg" />
+    <Resource Include="Resource\Time\0440.jpg" />
+    <Resource Include="Resource\Time\0500.jpg" />
+    <Resource Include="Resource\Time\0520.jpg" />
+    <Resource Include="Resource\Time\0530.jpg" />
+    <Resource Include="Resource\Time\0540.jpg" />
+    <Resource Include="Resource\Time\0600.jpg" />
+    <Resource Include="Resource\Time\0620.jpg" />
+    <Resource Include="Resource\Time\0630.jpg" />
+    <Resource Include="Resource\Time\0640.jpg" />
+    <Resource Include="Resource\Time\0700.jpg" />
+    <Resource Include="Resource\Time\0720.jpg" />
+    <Resource Include="Resource\Time\0730.jpg" />
+    <Resource Include="Resource\Time\0740.jpg" />
+    <Resource Include="Resource\Time\0800.jpg" />
+    <Resource Include="Resource\Time\0820.jpg" />
+    <Resource Include="Resource\Time\0830.jpg" />
+    <Resource Include="Resource\Time\0840.jpg" />
+    <Resource Include="Resource\Time\0900.jpg" />
+    <Resource Include="Resource\Time\0920.jpg" />
+    <Resource Include="Resource\Time\0930.jpg" />
+    <Resource Include="Resource\Time\0940.jpg" />
+    <Resource Include="Resource\Time\1000.jpg" />
+    <Resource Include="Resource\Time\1020.jpg" />
+    <Resource Include="Resource\Time\1030.jpg" />
+    <Resource Include="Resource\Time\1040.jpg" />
+    <Resource Include="Resource\Time\1100.jpg" />
+    <Resource Include="Resource\Time\1120.jpg" />
+    <Resource Include="Resource\Time\1130.jpg" />
+    <Resource Include="Resource\Time\1140.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -80,7 +80,7 @@ namespace Cognition
                 //设置窗口可以进行的操作
                 this.ResizeMode = System.Windows.ResizeMode.CanMinimize;
                 //设置为顶层窗口
-                this.Topmost = true;
+                //this.Topmost = true;
 
                 //设置窗口位置
                 this.Left = 0.0;
