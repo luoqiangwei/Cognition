@@ -184,9 +184,10 @@ namespace Cognition
             }
         }
 
-        private void Change()
+        private async void Change()
         {
-            Thread.Sleep(3000);
+            back.IsEnabled = false;
+            await Task.Delay(3000);
             TimeGameSelect tgs = new TimeGameSelect();
             tgs.Show();
             this.Close();

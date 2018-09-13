@@ -38,7 +38,7 @@ namespace Cognition
             {
                 windowCheck.IsChecked = true;
             }
-
+            volumeSilder.Value = volume;
         }
 
         private void exit_Click(object sender, RoutedEventArgs e)

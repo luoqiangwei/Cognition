@@ -84,7 +84,7 @@ namespace Cognition
 
         private void gameA1_Click(object sender, RoutedEventArgs e)
         {
-            TGameA1 g1 = new TGameA1();
+            TGameA g1 = new TGameA();
             g1.Show();
             this.Close();
         }
@@ -93,6 +93,13 @@ namespace Cognition
         {
             TGameB gb = new TGameB();
             gb.Show();
+            this.Close();
+        }
+
+        private void gameC_Click(object sender, RoutedEventArgs e)
+        {
+            TGameC tc = new TGameC();
+            tc.Show();
             this.Close();
         }
     }

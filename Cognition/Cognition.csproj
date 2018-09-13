@@ -58,11 +58,14 @@
     <Compile Include="Setting.xaml.cs">
       <DependentUpon>Setting.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TGameA1.xaml.cs">
-      <DependentUpon>TGameA1.xaml</DependentUpon>
+    <Compile Include="TGameA.xaml.cs">
+      <DependentUpon>TGameA.xaml</DependentUpon>
     </Compile>
     <Compile Include="TGameB.xaml.cs">
       <DependentUpon>TGameB.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TGameC.xaml.cs">
+      <DependentUpon>TGameC.xaml</DependentUpon>
     </Compile>
     <Compile Include="TimeGameSelect.xaml.cs">
       <DependentUpon>TimeGameSelect.xaml</DependentUpon>
@@ -83,11 +86,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TGameA1.xaml">
+    <Page Include="TGameA.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TGameB.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TGameC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
