@@ -61,6 +61,9 @@
     <Compile Include="TGameA1.xaml.cs">
       <DependentUpon>TGameA1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TGameB.xaml.cs">
+      <DependentUpon>TGameB.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TimeGameSelect.xaml.cs">
       <DependentUpon>TimeGameSelect.xaml</DependentUpon>
     </Compile>
@@ -81,6 +84,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TGameA1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TGameB.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

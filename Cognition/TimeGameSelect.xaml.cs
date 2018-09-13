@@ -88,5 +88,12 @@ namespace Cognition
             g1.Show();
             this.Close();
         }
+
+        private void gameB_Click(object sender, RoutedEventArgs e)
+        {
+            TGameB gb = new TGameB();
+            gb.Show();
+            this.Close();
+        }
     }
 }
