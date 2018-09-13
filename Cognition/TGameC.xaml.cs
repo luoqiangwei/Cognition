@@ -154,7 +154,7 @@ namespace Cognition
             panlB.Content = b;
             panlC.Content = c;
 
-            int ans = r.Next() % 3;
+            ans = r.Next() % 3;
             switch (ans)
             {
                 case 0:
@@ -175,6 +175,8 @@ namespace Cognition
             panlA.IsEnabled = false;
             panlB.IsEnabled = false;
             panlC.IsEnabled = false;
+            //Console.WriteLine(time);
+            //Console.WriteLine(ans);
             await Task.Delay(time * 1000);
             //Thread.Sleep(time * 1000);
             panlA.IsEnabled = true;
