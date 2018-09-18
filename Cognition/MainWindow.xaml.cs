@@ -97,5 +97,12 @@ namespace Cognition
             tgs.Show();
             this.Close();
         }
+
+        private void spaceGameStart_Click(object sender, RoutedEventArgs e)
+        {
+            SpatialGameSelect sgs = new SpatialGameSelect();
+            sgs.Show();
+            this.Close();
+        }
     }
 }

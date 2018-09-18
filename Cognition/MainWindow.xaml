@@ -32,7 +32,7 @@
 			<Button x:Name="setting" Content="设置"  Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" FontSize="20" Click="setting_Click" Margin="5"/>
 		</Grid>
 		<Button x:Name="timeGameStart" Content="时间认知" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="1" VerticalAlignment="Stretch" Margin="5" FontSize="24" Click="timeGameStart_Click"/>
-		<Button x:Name="spaceGameStart" Content="空间认知" Grid.Column="2" HorizontalAlignment="Stretch" Margin="5" Grid.Row="1" VerticalAlignment="Stretch" FontSize="24"/>
+		<Button x:Name="spaceGameStart" Content="空间认知" Grid.Column="2" HorizontalAlignment="Stretch" Margin="5" Grid.Row="1" VerticalAlignment="Stretch" FontSize="24" Click="spaceGameStart_Click"/>
 		<Button x:Name="visualTrainingStart" Content="视觉训练" Grid.Column="3" HorizontalAlignment="Stretch"  Grid.Row="1" VerticalAlignment="Stretch" Margin="5" FontSize="24"/>
 		<Button x:Name="logicalCalculusStart" Content="逻辑运算" Grid.Column="1" HorizontalAlignment="Stretch" Margin="5" Grid.Row="2" VerticalAlignment="Stretch" FontSize="24"/>
 		<Button x:Name="fineMotorStart" Content="精细运动" Grid.Column="2" HorizontalAlignment="Stretch" Margin="5" Grid.Row="2" VerticalAlignment="Stretch" FontSize="24"/>
