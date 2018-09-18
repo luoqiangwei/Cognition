@@ -58,6 +58,15 @@
     <Compile Include="Setting.xaml.cs">
       <DependentUpon>Setting.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SpaceGameA.xaml.cs">
+      <DependentUpon>SpaceGameA.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpaceGameB.xaml.cs">
+      <DependentUpon>SpaceGameB.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpaceGameC.xaml.cs">
+      <DependentUpon>SpaceGameC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SpatialGameSelect.xaml.cs">
       <DependentUpon>SpatialGameSelect.xaml</DependentUpon>
     </Compile>
@@ -86,6 +95,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Setting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SpaceGameA.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SpaceGameB.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SpaceGameC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
