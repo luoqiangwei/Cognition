@@ -81,5 +81,12 @@ namespace Cognition
         {
             windowResize();
         }
+
+        private void gameA_Click(object sender, RoutedEventArgs e)
+        {
+            SpaceGameA sga = new SpaceGameA();
+            sga.Show();
+            this.Close();
+        }
     }
 }

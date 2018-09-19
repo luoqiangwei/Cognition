@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Cognition"
         mc:Ignorable="d"
         Title="SpaceGameA" Height="1080" Width="1920">
-    <Grid>
+    <Grid Loaded="Grid_Loaded">
 		<Grid.RowDefinitions>
 			<RowDefinition></RowDefinition>
 			<RowDefinition></RowDefinition>
@@ -23,6 +23,7 @@
 			<ColumnDefinition></ColumnDefinition>
 			<ColumnDefinition></ColumnDefinition>
 		</Grid.ColumnDefinitions>
+		<Button x:Name="back" Content="返回" Grid.Column="7" HorizontalAlignment="Stretch" Margin="5" Grid.Row="3" VerticalAlignment="Stretch" FontSize="20" Click="back_Click"/>
 
 	</Grid>
 </Window>

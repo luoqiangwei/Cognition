@@ -25,3 +25,9 @@ D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\TGameA.baml
 D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\TGameC.baml
 D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\SpatialGameSelect.g.cs
 D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\SpatialGameSelect.baml
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\SpaceGameA.g.cs
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\SpaceGameB.g.cs
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\SpaceGameC.g.cs
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\SpaceGameA.baml
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\SpaceGameB.baml
+D:\Store\CAH\Creat\2018\CS\Cognition\Cognition\obj\Debug\SpaceGameC.baml
