@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Cognition"
         mc:Ignorable="d"
         Title="SpaceGameA" Height="1080" Width="1920">
-    <Grid Loaded="Grid_Loaded">
+	<Grid Loaded="Grid_Loaded">
 		<Grid.RowDefinitions>
 			<RowDefinition></RowDefinition>
 			<RowDefinition></RowDefinition>
@@ -23,7 +23,11 @@
 			<ColumnDefinition></ColumnDefinition>
 			<ColumnDefinition></ColumnDefinition>
 		</Grid.ColumnDefinitions>
-		<Button x:Name="back" Content="返回" Grid.Column="7" HorizontalAlignment="Stretch" Margin="5" Grid.Row="3" VerticalAlignment="Stretch" FontSize="20" Click="back_Click"/>
+		<Button x:Name="back" Content="返回" Grid.Column="7" HorizontalAlignment="Stretch" Margin="5" Grid.Row="3" VerticalAlignment="Stretch" FontSize="36" Click="back_Click"/>
+		<Canvas x:Name="baseCanvas" HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Stretch" Grid.ColumnSpan="7" Grid.RowSpan="4" MouseLeftButtonDown="baseCanvas_MouseLeftButtonDown" Background="White"/>
+		<Label x:Name="chance" Content="机会" Grid.Column="7" HorizontalAlignment="Center" Margin="5" VerticalAlignment="Center" FontSize="36"/>
+		<Label x:Name="chanceTimes" Content="3" Grid.Column="7" HorizontalAlignment="Center" Margin="5" Grid.Row="1" VerticalAlignment="Center" FontSize="36"/>
+		<Label x:Name="msg" Content="" Grid.Column="7" HorizontalAlignment="Center" Margin="5" Grid.Row="2" VerticalAlignment="Center" FontSize="24"/>
 
 	</Grid>
 </Window>
