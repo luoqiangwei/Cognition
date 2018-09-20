@@ -1,0 +1,35 @@
+﻿<Window x:Class="Cognition.TGameC"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cognition"
+        mc:Ignorable="d"
+        Title="TGameC" Height="1080" Width="1920">
+	<Grid Loaded="Grid_Loaded">
+		<Grid.RowDefinitions>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+		</Grid.ColumnDefinitions>
+		<Button x:Name="back" Content="返回" Grid.Column="7" HorizontalAlignment="Stretch" Margin="15" Grid.Row="3" VerticalAlignment="Stretch" FontSize="36" Click="back_Click"/>
+		<Button x:Name="panlA" Content="0" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10" Grid.Row="1" VerticalAlignment="Stretch" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="72" IsEnabled="False" MouseLeftButtonDown="panlA_MouseLeftButtonDown" MouseLeftButtonUp="panlA_MouseLeftButtonUp"/>
+		<Button x:Name="panlB" Content="0" Grid.Column="3" HorizontalAlignment="Stretch" Margin="10" Grid.Row="1" VerticalAlignment="Stretch" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="72" IsEnabled="False" MouseLeftButtonDown="panlB_MouseLeftButtonDown" MouseLeftButtonUp="panlB_MouseLeftButtonUp"/>
+		<Button x:Name="panlC" Content="0" Grid.Column="5" HorizontalAlignment="Stretch" Margin="10" Grid.Row="1" VerticalAlignment="Stretch" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="72" IsEnabled="False" MouseLeftButtonDown="panlC_MouseLeftButtonDown" MouseLeftButtonUp="panlC_MouseLeftButtonUp"/>
+		<Button x:Name="start" Content="开始" Grid.Column="3" HorizontalAlignment="Stretch" Margin="15" Grid.Row="3" VerticalAlignment="Stretch" FontSize="36" Grid.ColumnSpan="2" MouseLeftButtonDown="start_MouseLeftButtonDown" MouseLeftButtonUp="start_MouseLeftButtonUp"/>
+		<Label x:Name="msg" Content="" Grid.Column="3" HorizontalAlignment="Center" Margin="5" VerticalAlignment="Center" FontSize="24" Foreground="#FF0068FF"/>
+		<Label x:Name="chanceTitle" Content="机会" Grid.Column="6" HorizontalAlignment="Center" Margin="5" VerticalAlignment="Center" FontSize="24"/>
+		<Label x:Name="chance" Content="3" Grid.Column="7" HorizontalAlignment="Center" Margin="5" VerticalAlignment="Center" FontSize="24"/>
+	</Grid>
+</Window>

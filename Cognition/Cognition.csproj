@@ -55,31 +55,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Setting.xaml.cs">
+    <Compile Include="config\Setting.xaml.cs">
       <DependentUpon>Setting.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SpaceGameA.xaml.cs">
+    <Compile Include="SpaceGame\SpaceGameA.xaml.cs">
       <DependentUpon>SpaceGameA.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SpaceGameB.xaml.cs">
+    <Compile Include="SpaceGame\SpaceGameB.xaml.cs">
       <DependentUpon>SpaceGameB.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SpaceGameC.xaml.cs">
+    <Compile Include="SpaceGame\SpaceGameC.xaml.cs">
       <DependentUpon>SpaceGameC.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SpatialGameSelect.xaml.cs">
+    <Compile Include="SpaceGame\SpatialGameSelect.xaml.cs">
       <DependentUpon>SpatialGameSelect.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TGameA.xaml.cs">
+    <Compile Include="TImeGame\TGameA.xaml.cs">
       <DependentUpon>TGameA.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TGameB.xaml.cs">
+    <Compile Include="TImeGame\TGameB.xaml.cs">
       <DependentUpon>TGameB.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TGameC.xaml.cs">
+    <Compile Include="TImeGame\TGameC.xaml.cs">
       <DependentUpon>TGameC.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TimeGameSelect.xaml.cs">
+    <Compile Include="TImeGame\TimeGameSelect.xaml.cs">
       <DependentUpon>TimeGameSelect.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
@@ -94,39 +94,39 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Setting.xaml">
+    <Page Include="config\Setting.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SpaceGameA.xaml">
+    <Page Include="SpaceGame\SpaceGameA.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SpaceGameB.xaml">
+    <Page Include="SpaceGame\SpaceGameB.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SpaceGameC.xaml">
+    <Page Include="SpaceGame\SpaceGameC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SpatialGameSelect.xaml">
+    <Page Include="SpaceGame\SpatialGameSelect.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TGameA.xaml">
+    <Page Include="TImeGame\TGameA.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TGameB.xaml">
+    <Page Include="TImeGame\TGameB.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TGameC.xaml">
+    <Page Include="TImeGame\TGameC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TimeGameSelect.xaml">
+    <Page Include="TImeGame\TimeGameSelect.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -158,7 +158,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="setting.xml">
+    <Resource Include="config\setting.xml">
       <SubType>Designer</SubType>
     </Resource>
   </ItemGroup>
@@ -212,5 +212,6 @@
     <Resource Include="Resource\Time\1130.jpg" />
     <Resource Include="Resource\Time\1140.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
