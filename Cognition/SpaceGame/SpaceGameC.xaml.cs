@@ -101,9 +101,9 @@ namespace Cognition
             Random r = new Random();
             int cx = r.Next() % x;
             int cy = r.Next() % y;
-            int cr = r.Next() % 500 + 10;
+            int cr = r.Next() % 500 + 50;
             baseCanvas.Children.Clear();
-            Ellipse e = new Ellipse();
+            Rectangle e = new Rectangle();
             e.Height = cr;
             e.Width = cr;
             e.Stroke = new SolidColorBrush(Color.FromArgb((byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200)));
