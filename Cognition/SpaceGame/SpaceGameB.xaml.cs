@@ -99,17 +99,20 @@ namespace Cognition
         private void randomCircle()
         {
             Random r = new Random();
-            int cx = r.Next() % x;
-            int cy = r.Next() % y;
-            int cr = r.Next() % 500 + 10;
+            int cx1 = r.Next() % x;
+            int cy1 = r.Next() % y;
+            int cx2 = r.Next() % x;
+            int cy2 = r.Next() % y;
+            int cr = r.Next() % 50 + 10;
             baseCanvas.Children.Clear();
-            Ellipse e = new Ellipse();
-            e.Height = cr;
-            e.Width = cr;
+            Line e = new Line();
+            e.X1 = cx1;
+            e.Y1 = cy1;
+            e.X2 = cx2;
+            e.Y2 = cy2;
+            e.StrokeThickness = cr;
             e.Stroke = new SolidColorBrush(Color.FromArgb((byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200)));
             e.Fill = new SolidColorBrush(Color.FromArgb((byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200)));
-            e.SetValue(Canvas.LeftProperty, (double)cx);
-            e.SetValue(Canvas.TopProperty, (double)cy);
 
             e.AddHandler(Button.MouseLeftButtonDownEvent, new MouseButtonEventHandler(e_MouseLeftButtonDown), true);
 
