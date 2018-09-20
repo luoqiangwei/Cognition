@@ -29,6 +29,7 @@ namespace Cognition
         int count = 10;
         int life = 3;
         int time;
+        Boolean cTo = true;
 
         public TGameC()
         {
@@ -186,11 +187,15 @@ namespace Cognition
 
         private async void Change()
         {
-            back.IsEnabled = false;
-            await Task.Delay(3000);
-            TimeGameSelect tgs = new TimeGameSelect();
-            tgs.Show();
-            this.Close();
+            if (cTo)
+            {
+                cTo = false;
+                back.IsEnabled = false;
+                await Task.Delay(3000);
+                TimeGameSelect tgs = new TimeGameSelect();
+                tgs.Show();
+                this.Close();
+            }
         }
 
         private void panlA_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

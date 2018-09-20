@@ -27,6 +27,7 @@ namespace Cognition
         int ans;
         int count = 20;
         int life = 3;
+        Boolean cTo = true;
 
         List<string> timeList = new List<string>();
         public TGameA()
@@ -188,11 +189,15 @@ namespace Cognition
 
         private async void Change()
         {
-            back.IsEnabled = false;
-            await Task.Delay(3000);
-            TimeGameSelect tgs = new TimeGameSelect();
-            tgs.Show();
-            this.Close();
+            if (cTo)
+            {
+                cTo = false;
+                back.IsEnabled = false;
+                await Task.Delay(3000);
+                TimeGameSelect tgs = new TimeGameSelect();
+                tgs.Show();
+                this.Close();
+            }
         }
 
         private void pic1_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)

@@ -31,7 +31,7 @@
 		<Button x:Name="back" Content="返回" Grid.Column="10" HorizontalAlignment="Stretch" Margin="5" Grid.Row="5" VerticalAlignment="Stretch" FontSize="20" Click="back_Click"/>
 		<Label Content="关卡选择" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="97,147" VerticalAlignment="Center" FontSize="36"  Grid.RowSpan="2"/>
 		<Button x:Name="gameA" Content="圆认知" Grid.Column="1" HorizontalAlignment="Stretch" Margin="5" Grid.Row="2" VerticalAlignment="Stretch" FontSize="48" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="gameA_Click"/>
-		<Button x:Name="gameB" Content="线认知" Grid.Column="4" HorizontalAlignment="Stretch" Margin="5" Grid.Row="2" VerticalAlignment="Stretch" FontSize="48" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+		<Button x:Name="gameB" Content="线认知" Grid.Column="4" HorizontalAlignment="Stretch" Margin="5" Grid.Row="2" VerticalAlignment="Stretch" FontSize="48" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="gameB_Click"/>
 		<Button x:Name="gameC" Content="块认知" Grid.Column="7" HorizontalAlignment="Stretch" Margin="5" Grid.Row="2" VerticalAlignment="Stretch" FontSize="48" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
 
 

@@ -25,8 +25,9 @@ namespace Cognition
         Boolean flag = true;
         Boolean isWindow;
         double volume;
-        int count = 20;
+        int count = 50;
         int life = 3;
+        Boolean cTo = true;
 
         public SpaceGameA()
         {
@@ -162,10 +163,14 @@ namespace Cognition
 
         private async void Change()
         {
-            await Task.Delay(3000);
-            SpatialGameSelect sgs = new SpatialGameSelect();
-            sgs.Show();
-            this.Close();
+            if (cTo)
+            {
+                cTo = false;
+                await Task.Delay(3000);
+                SpatialGameSelect sgs = new SpatialGameSelect();
+                sgs.Show();
+                this.Close();
+            }
         }
     }
 }
