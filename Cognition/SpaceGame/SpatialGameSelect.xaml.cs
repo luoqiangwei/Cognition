@@ -95,5 +95,12 @@ namespace Cognition
             sgb.Show();
             this.Close();
         }
+
+        private void gameC_Click(object sender, RoutedEventArgs e)
+        {
+            SpaceGameC sgc = new SpaceGameC();
+            sgc.Show();
+            this.Close();
+        }
     }
 }

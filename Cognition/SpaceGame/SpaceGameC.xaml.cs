@@ -20,8 +20,15 @@ namespace Cognition
     /// </summary>
     public partial class SpaceGameC : Window
     {
+        int x;
+        int y;
+        Boolean flag = true;
         Boolean isWindow;
         double volume;
+        int count = 50;
+        int life = 3;
+        Boolean cTo = true;
+
         public SpaceGameC()
         {
             InitializeComponent();
@@ -32,6 +39,12 @@ namespace Cognition
             isWindow = Boolean.Parse(xlist[0].InnerText);
             xlist = setting.GetElementsByTagName("volume");
             volume = double.Parse(xlist[0].InnerText);
+        }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            windowResize();
+            randomCircle();
         }
 
         private void windowResize()
@@ -49,6 +62,9 @@ namespace Cognition
                 //设置窗口大小
                 this.Width = System.Windows.SystemParameters.PrimaryScreenWidth / 2;
                 this.Height = System.Windows.SystemParameters.PrimaryScreenHeight / 2;
+
+                x = (int)System.Windows.SystemParameters.PrimaryScreenWidth / 2 / 8 * 7 - 10;
+                y = (int)System.Windows.SystemParameters.PrimaryScreenHeight / 2 / 8 * 7 - 10;
             }
             else
             {
@@ -67,6 +83,9 @@ namespace Cognition
                 //设置窗口大小
                 this.Width = System.Windows.SystemParameters.PrimaryScreenWidth;
                 this.Height = System.Windows.SystemParameters.PrimaryScreenHeight;
+
+                x = (int)System.Windows.SystemParameters.PrimaryScreenWidth / 8 * 7 - 10;
+                y = (int)System.Windows.SystemParameters.PrimaryScreenHeight / 8 * 7 - 10;
             }
         }
 
@@ -77,9 +96,71 @@ namespace Cognition
             this.Close();
         }
 
-        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        private void randomCircle()
         {
-            windowResize();
+            Random r = new Random();
+            int cx = r.Next() % x;
+            int cy = r.Next() % y;
+            int cr = r.Next() % 500 + 10;
+            baseCanvas.Children.Clear();
+            Ellipse e = new Ellipse();
+            e.Height = cr;
+            e.Width = cr;
+            e.Stroke = new SolidColorBrush(Color.FromArgb((byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200)));
+            e.Fill = new SolidColorBrush(Color.FromArgb((byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200), (byte)(r.Next() % 200)));
+            e.SetValue(Canvas.LeftProperty, (double)cx);
+            e.SetValue(Canvas.TopProperty, (double)cy);
+
+            e.AddHandler(Button.MouseLeftButtonDownEvent, new MouseButtonEventHandler(e_MouseLeftButtonDown), true);
+
+            baseCanvas.Children.Add(e);
+        }
+
+        private void e_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            flag = false;
+            count--;
+            msg.Content = "";
+            if (count <= 0)
+            {
+                msg.Content = "任务完成";
+                msg.Foreground = new SolidColorBrush(Colors.LightSkyBlue);
+                Change();
+            }
+            randomCircle();
+        }
+
+        private void baseCanvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (flag)
+            {
+                life--;
+                chanceTimes.Content = life;
+                if (life <= 0)
+                {
+                    msg.Content = "任务失败";
+                    msg.Foreground = new SolidColorBrush(Colors.Red);
+                    Change();
+                }
+                else
+                {
+                    msg.Content = "选择错误";
+                    msg.Foreground = new SolidColorBrush(Colors.Yellow);
+                }
+            }
+            flag = true;
+        }
+
+        private async void Change()
+        {
+            if (cTo)
+            {
+                cTo = false;
+                await Task.Delay(3000);
+                SpatialGameSelect sgs = new SpatialGameSelect();
+                sgs.Show();
+                this.Close();
+            }
         }
     }
 }
