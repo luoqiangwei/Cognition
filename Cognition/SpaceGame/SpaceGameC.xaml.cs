@@ -155,6 +155,7 @@ namespace Cognition
         {
             if (cTo)
             {
+                back.IsEnabled = false;
                 cTo = false;
                 await Task.Delay(3000);
                 SpatialGameSelect sgs = new SpatialGameSelect();
